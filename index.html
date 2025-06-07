@@ -1,12 +1,16 @@
 <html>
     <title>Gorilla Tag Revision Maker</title>
+    <link rel="stylesheet" href="style.css">
     <h1>Gorilla Tag Revision Maker</h1>
-    <input id="banned" type="text" placeholder="Users banned yesterday">
-    <p></p>
-    <input id="ver" type="text" placeholder="Version (Ex. live1122)">
-    <p></p>
+    <input class="i" id="banned" type="text" placeholder="Users banned yesterday">
+    <p>
+    <input class="i" id="ver" type="text" placeholder="Version (Ex. live1122)">
+    <div id="insta-ban"></div>
+    <p>
+    <input id="ib" type="checkbox">Show insta-ban options (beta)
+    <p>
     <button onclick="generate();">Generate</button>
-    <p></p>
-    <div style="background-color: black; color: white;" id="output">Output</div>
+    <p>
+    <div class="output" id="output">Output</div>
     <script src="script.js"></script>
 </html>
