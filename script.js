@@ -1,3 +1,6 @@
+function copy() {
+    navigator.clipboard.writeText(document.getElementById("output").innerText);
+}
 document.getElementById('ib').addEventListener('change', e => {
     if (!document.getElementById('ib').checked) {
         document.getElementById('insta-ban').textContent = ``
